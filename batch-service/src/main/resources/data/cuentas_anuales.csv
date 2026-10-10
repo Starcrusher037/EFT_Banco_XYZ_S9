@@ -1,0 +1,11 @@
+cuentaId,fecha,transaccion,monto,descripcion
+1001,2024-01-05,DEPOSITO,200000.00,Abono sueldo enero
+1002,05/02/2024,GIRO,50000.00,Retiro cajero automatico
+1003,15-03-2024,PAGO,35000.00,Pago servicio de luz
+1004,2024/04/10,TRANSFERENCIA,-15000.00,Transferencia terceros
+1005,fecha_invalida,DEPOSITO,80000.00,Deposito en ventanilla
+INVALID_ID,2024-06-20,GIRO,20000.00,Giro sucursal
+1006,2024-07-12,PAGO,45000.00,
+1007,2024-08-15,DEPOSITO,invalid_monto,Abono honorarios
+1008,2024-09-30,TRANSFERENCIA,350000.00,Traspaso de fondos
+1009,2024-12-01,DEPOSITO,500000.00,Aguinaldo fin de ano

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>cl.duoc.bancoxyz</groupId>
+	<artifactId>banco-xyz-aggregator</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>banco-xyz-aggregator</name>
+	<description>Orquestador Agregador Maven para compilar y empaquetar todos los microservicios del Banco XYZ en un solo comando</description>
+
+	<modules>
+		<module>config-server</module>
+		<module>discovery-server</module>
+		<module>auth-server</module>
+		<module>ms-mensajeria</module>
+		<module>bff-cajero</module>
+		<module>bff-movil</module>
+		<module>bff-web</module>
+		<module>batch-service</module>
+		<module>ms-cuentas</module>
+		<module>ms-pagos</module>
+		<module>ms-clientes</module>
+	</modules>
+</project>
