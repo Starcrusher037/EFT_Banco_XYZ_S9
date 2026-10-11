@@ -576,7 +576,7 @@ curl -X POST http://localhost:8092/api/core/saga/transferencia \
   -d '{
     "cuentaOrigenId": 101,
     "cuentaDestinoId": 102,
-    "monto": 30000,
+    "monto": 3000,
     "glosa": "Transferencia de prueba de contingencia",
     "simularFalloDestino": true
   }'
@@ -587,14 +587,14 @@ curl -X POST http://localhost:8092/api/core/saga/transferencia \
   "sagaId": "SAGA-F5E6D7C8",
   "cuentaOrigenId": 101,
   "cuentaDestinoId": 102,
-  "monto": 30000,
+  "monto": 3000,
   "estado": "COMPENSADA",
   "mensajeResultado": "La transferencia falló en la cuenta destino (...). La transacción de compensación fue ejecutada y los fondos fueron restituidos a la cuenta origen.",
   "bitacoraPasos": [
     "22:45:06 - PASO 1 EXITOSO: Débito de $30000 completado en cuenta origen...",
     "22:45:06 - FALLO EN PASO 2: Simulación pedagógica: Rechazo de acreditación...",
     "22:45:06 - PASO 3 (COMPENSACIÓN): Revirtiendo débito en cuenta origen...",
-    "22:45:06 - COMPENSACIÓN COMPLETADA: Fondos de $30000 restituidos íntegramente a cuenta origen. Saldo final restaurado."
+    "22:45:06 - COMPENSACIÓN COMPLETADA: Fondos de $3000 restituidos íntegramente a cuenta origen. Saldo final restaurado."
   ]
 }
 ```
